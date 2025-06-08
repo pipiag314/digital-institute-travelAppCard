@@ -1,5 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap");
+
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    font-family: "Noto Sans Georgian", sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-container {
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+.card {
+    width: 480px;
+    height: 200px;
+    border-radius: 2px;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 24px;
+    box-shadow: inset 10px -80px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-text {
+    color: #fff;
+}
+
+.button-container button {
+    all: unset;
+    padding: 12px 32px;
+    background-color: #297CE9;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
 }
