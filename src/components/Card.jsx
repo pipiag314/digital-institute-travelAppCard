@@ -1,5 +1,4 @@
 const Card = ({ city_name, date, month, price, imageUrl }) => {
-  console.log(imageUrl);
   return (
     <div className="card-container">
       <div
